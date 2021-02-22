@@ -6,7 +6,7 @@ new_soket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # localhost
 host = 'localhost'
 # port 
-port = 8080
+port = 60
 # konek ke server via localhost
 server_id = ((host, port))
 print("Terhubung")
