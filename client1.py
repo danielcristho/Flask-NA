@@ -4,7 +4,7 @@ import sys
 # make soket
 new_soket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # localhost
-host = 'localhost'
+host = '127.0.0.1'
 # port 
 port = 60
 # konek ke server via localhost
