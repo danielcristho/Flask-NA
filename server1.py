@@ -4,7 +4,7 @@ import sys
 # make tcp/ip socket dengan address family
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # localohost
-host = 'localhost'
+host = '127.0.0.1'
 # make port
 port = 60
 # bindng dari socket ke port
