@@ -6,7 +6,7 @@ sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # localohost
 host = 'localhost'
 # make port
-port = 8080
+port = 60
 # bindng dari socket ke port
 sock.bind((host, port))
 # listen the connection
