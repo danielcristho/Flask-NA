@@ -1,7 +1,7 @@
 import socket
 import sys
 
-# make soket
+# add socket
 new_soket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # localhost
 host = '127.0.0.1'
