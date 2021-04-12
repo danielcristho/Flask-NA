@@ -1,13 +1,13 @@
 import socket
 import sys
 
-# make tcp/ip socket dengan address family
+
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # localohost
 host = '127.0.0.1'
 # make port
 port = 60
-# bindng dari socket ke port
+# bindng
 sock.bind((host, port))
 # listen the connection
 sock.listen(1)
