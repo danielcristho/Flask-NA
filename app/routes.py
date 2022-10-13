@@ -8,11 +8,9 @@ def get_devices():
     return jsonify({'device': [device.get_url() 
                             for device in Device.query.all()]})
 
-
 @app.route('/devices/<int:id>', methods=['GET'])
 def get_device(id):
     return jsonify(Device.query.get_or_404(id).export_data())
-
 
 @app.route('/devices/<int:id/version>', methods=['GET'])
 def get_device_version(id):
@@ -36,7 +34,6 @@ def get_role_version(device_role):
         result[hostname] = str(device_result)
     return jsonify(result)    
 
-
 @app.route('/devices/', methods=['POST'])
 def new_device():
     device = Device()
@@ -44,7 +41,6 @@ def new_device():
     db.session.add(device)
     db.session.commit()
     return jsonify({}), 201, {'Location': device.get_url()}
-
 
 @app.route('/devices/<int:id>', methods=['PUT'])
 def edit_device(id):
