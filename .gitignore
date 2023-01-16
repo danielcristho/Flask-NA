@@ -1,9 +1,8 @@
-### Environment ###
+### Python ###
+venv
 env
 .env
 .venv
-venv
 
-### Python ###
-__pycache__/
-
+### Nornir ###
+*.log
