@@ -6,3 +6,6 @@ env
 
 ### Log ###
 *.log
+
+### Tailwind ###
+node_modules
