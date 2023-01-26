@@ -2,3 +2,4 @@ paramiko
 flask
 flask_sqlalchemy
 flask_wtf
+pylint
