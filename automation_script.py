@@ -6,7 +6,7 @@ devices = {'R1': {'ip': '172.16.0.1'},
 username = input('username: ')
 password = getpass.getpass('password: ')
 
-commands = ['show version\n', 'show ip int br | exc unass\n']
+commands = ['show version\n', 'show ip int br | exc unass\n', "terminal length 0"]
 
 max_buffer = 65535
 
