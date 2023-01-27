@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Flask-NA Dashboard</title>
+{% endblock %}
+
+{% block body %}
+    <nav aria-label="Site Header" class="shadow shadow-gray-100">
+        <div class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4">
+            <div class="flex items-center gap-4">
+                <a href="dashboard.html" aria-label="Company" title="Company" class="inline-flex items-center mr-8">
+                    <span class="ml-2 mb-1 text-xl font-bold tracking-wide text-orange-400">Dashboard</span>
+                </a>
+            </div>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    averia: ["Averia Sans Libre"],
+                    enriqueta: ["serif-enriqueta"],
+                },
+            },
+        },
+    };
+</script>
+{% endblock %}
