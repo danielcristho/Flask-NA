@@ -1,5 +1,5 @@
-paramiko
+netmiko
 flask
 flask_sqlalchemy
 flask_wtf
-pylint
+flake8-flask

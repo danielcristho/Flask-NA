@@ -1,0 +1,9 @@
+[flake8]
+exclude =
+    node_modules
+    templates
+    migrations,
+    __pycache__,
+    automation_script.py
+    *.js
+    *.json
