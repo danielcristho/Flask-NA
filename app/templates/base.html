@@ -8,7 +8,36 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=enriqueta:400|serif-enriqueta:200,300,400,500,600,700,800" rel="stylesheet"/>
 </head>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    averia: ["Averia Sans Libre"],
+                    enriqueta: ["serif-enriqueta"],
+                },
+            },
+        },
+    };
+</script>
 <body class="font-enriqueta">
-    {% block body %} {% endblock %}
+    <nav aria-label="Site Header" class="shadow bg-slate-600">
+        <div class="mx-auto flex h-16 max-w-screen-xl items-center justify-between px-4">
+            <div class="flex items-center gap-4">
+                <div class="flex items-center justify-between">
+                    <a href="#" class="inline-flex">
+                        <span class="ml-1 mb-1 text-xl font-bold tracking-normal text-rose-500">Dashboard</span>
+                    </a>
+                        </div class="collapse navbar-collapse" id==navbarSupportedContent>
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item text-rose-500" >
+                                    <a class="nav-link" href="#" >Devices</a>
+                                </li>
+                            </ul>
+                        <div>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
